@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="dark:bg-slate-800">
+
+    <header
+        class="bg-transparent  dark:bg-slate-800 fixed top-0 left-0 w-full  py-7 transition duration-700 ease-linear">
+        <div class="container">
+            <nav class="flex justify-between items-center relative">
+                <div class=" w-1/4">
+                    <a href="#" class="text-blue-400 font-bold block text-lg md:text-3xl  ">Teddy irawan</a>
+                </div>
+
+                <div id="nav-item"
+                    class=" dark:bg-slate-800 dark:text-white  absolute py-5 top-full right-0 bg-white shadow-lg rounded-lg max-w-full  w-full hidden text-center lg:justify-end capitalize font-semibold lg:w-9/12 lg:flex lg:static lg:bg-transparent lg:shadow-none lg:py-0 ">
+                    <a href=" #home" class="mx-4 nav-item-a relative block  my-1 ">Home</a>
+                    <a href="#about" class="mx-4 nav-item-a relative block my-1">About</a>
+                    <a href="" class="mx-4 nav-item-a relative block my-1">MyGalery</a>
+                    <a href="" class="mx-4 nav-item-a relative block my-1">Contact</a>
+                </div>
+
+                <div class="w-1/4 flex lg:justify-center">
+                    <button id="darkMode" class="shadow-xl w-10 h-10 rounded-full flex justify-center items-center ">
+                        <img src="./image/moon.png" alt="" id="DarkImage" class="w-5">
+                    </button>
+                </div>
+                <div class="flex items-center  px-4 w-10 h-10 bg-sky-400 rounded-lg  justify-center lg:hidden">
+                    <button id="hamburger" class="block absolute ">
+                        <span class="hamburger-line transition origin-top-right duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out "></span>
+                        <span class="hamburger-line transition origin-bottom-right duration-300 ease-in-out"></span>
+                    </button>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="mt-36">
+        <section class="container" id="home">
+            <div class="flex flex-wrap">
+                <div class="flex flex-col w-full  items-center md:mx-auto   lg:items-start lg:w-1/2 ">
+                    <h3 class="text-slate-400 font-bold md:text-xl">Hi There</h3>
+                    <h1
+                        class="font-bold text-sky-400 font-serif text-5xl w-9/12 text-center lg:text-start my-5  lg:text-8xl">
+                        Teddy
+                        Irawan</h1>
+
+                    <p class="font-semibold text-xl animationText 1s ease-linear infinity"> </p>
+
+                    <p class="text-slate-400 font-semibold text-center max-w-sm  my-5 lg:text-start ">Lorem ipsum dolor
+                        sit
+                        amet
+                        consectetur
+                        adipisicing
+                        elit.
+                        Praesentium expedita autem suscipit placeat
+                        explicabo, sunt odio deserunt iste quis adipisci.</p>
+                    <button
+                        class="bg-sky-500 w-44 my-4 h-12 rounded-md  text-white capitalize font-semibold">dowload</button>
+                </div>
+
+
+                <div class=" w-full  px-4  lg:flex lg:justify-center lg:w-1/2 relative   ">
+                    <div class="  lg:mr-0">
+
+                        <img src="image/imagetedy.png" alt="image" class="max-w-[10rem] mx-auto md:max-w-[14rem]  ">
+
+                    </div>
+                    <span
+                        class="w-full absolute top-0 -z-10 flex justify-center md:top-16 left-1/2   -translate-x-1/2   ">
+                        <svg widht="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#38bdf8"
+                                d="M45.6,-44.8C60.5,-30.6,75.1,-15.3,77.6,2.5C80.1,20.3,70.4,40.5,55.5,51.2C40.5,61.8,20.3,62.7,-0.6,63.3C-21.4,63.8,-42.8,64,-53.7,53.4C-64.7,42.8,-65.2,21.4,-65,0.2C-64.8,-21,-63.9,-42,-53,-56.2C-42,-70.4,-21,-77.7,-2.8,-74.9C15.3,-72,30.6,-59,45.6,-44.8Z"
+                                transform="translate(100 100) scale(1.2) " />
+                        </svg>
+                    </span>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section id="about" class="pt-36">
+
+            <div class=" relative flex justify-center ">
+                <h3
+                    class="text-6xl opacity-50 font-extrabold bg-gradient-to-b dark:bg-gradient-to-t from-slate-500 from-10% to-slate-200 -z-10 to-90% text-transparent bg-clip-text">
+                    About Me</h3>
+                <h4 class="text-3xl font-extrabold absolute  bottom-0 dark:text-white lg:top-8">About Me</h4>
+            </div>
+            <div class="container lg:flex  py-10">
+                <div class="w-full py-10 lg:w-1/2 lg:ml-10">
+                    <div class="lg:w-[22rem] lg:h-[33rem] lg:bg-sky-500 lg:rounded-xl">
+                        <img src="./image/imageteddy2.JPG" alt="teddy"
+                            class="w-[18rem] max-w-full h-[23rem] object-cover lg:rotate-12  rounded-xl block mx-auto lg:w-[22rem] lg:h-[33rem]  hover:rotate-0 transition ease-in">
+                    </div>
+                </div>
+
+
+                <div class="py-5 text-center lg:w-1/2 lg:text-start dark:text-white ">
+                    <h1 class="font-bold text-4xl py-5">Holla i'am
+                        <span class="text-sky-400">
+                            Teddy Irawan
+                        </span>
+                    </h1>
+
+                    <h3 class="text-2xl font-semibold">
+                        A <span class="text-sky-400">
+                            Frontend Developer
+                        </span> 🧑‍💻 based in
+                        <span class="text-sky-400">
+                            Indonesia🌏
+                        </span>
+                    </h3>
+
+                    <p class="text-lg tracking-wide py-5">
+                        Hello everyone! I am Teddy Irawan, a frontend mobile and website developer. I am a
+                        intermediate experienced and I hope with this I can always learning something new to be able
+                        to
+                        invent digital applications that can help many people in the future. Can work alone or in a
+                        team.
+                    </p>
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+    </main>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
