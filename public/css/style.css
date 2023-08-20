@@ -665,8 +665,8 @@ video {
   height: 23rem;
 }
 
-.h-\[33rem\] {
-  height: 33rem;
+.h-14 {
+  height: 3.5rem;
 }
 
 .w-1\/4 {
@@ -695,6 +695,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .max-w-\[10rem\] {
@@ -785,10 +789,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-gradient-to-t {
-  background-image: linear-gradient(to top, var(--tw-gradient-stops));
-}
-
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -801,14 +801,6 @@ video {
 
 .from-10\% {
   --tw-gradient-from-position: 10%;
-}
-
-.to-slate-100 {
-  --tw-gradient-to: #f1f5f9 var(--tw-gradient-to-position);
-}
-
-.to-slate-300 {
-  --tw-gradient-to: #cbd5e1 var(--tw-gradient-to-position);
 }
 
 .to-slate-200 {
@@ -834,6 +826,11 @@ video {
   padding-right: 1rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -849,12 +846,18 @@ video {
   padding-bottom: 1.75rem;
 }
 
-.pt-36 {
-  padding-top: 9rem;
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
-.pt-24 {
-  padding-top: 6rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
 }
 
 .text-center {
@@ -904,12 +907,12 @@ video {
   font-weight: 700;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-extrabold {
   font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .capitalize {
@@ -942,10 +945,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.opacity-0 {
-  opacity: 0;
 }
 
 .opacity-50 {
@@ -1121,34 +1120,6 @@ body {
     position: static;
   }
 
-  .lg\:top-5 {
-    top: 1.25rem;
-  }
-
-  .lg\:top-10 {
-    top: 2.5rem;
-  }
-
-  .lg\:top-16 {
-    top: 4rem;
-  }
-
-  .lg\:top-14 {
-    top: 3.5rem;
-  }
-
-  .lg\:top-12 {
-    top: 3rem;
-  }
-
-  .lg\:top-11 {
-    top: 2.75rem;
-  }
-
-  .lg\:top-9 {
-    top: 2.25rem;
-  }
-
   .lg\:top-8 {
     top: 2rem;
   }
@@ -1206,13 +1177,13 @@ body {
     border-radius: 0.75rem;
   }
 
-  .lg\:bg-transparent {
-    background-color: transparent;
-  }
-
   .lg\:bg-sky-500 {
     --tw-bg-opacity: 1;
     background-color: rgb(14 165 233 / var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-transparent {
+    background-color: transparent;
   }
 
   .lg\:py-0 {
